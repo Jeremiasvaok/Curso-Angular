@@ -11,7 +11,6 @@ import { EmpleadoComponent } from './Components/empleado/empleado.component';
     AppComponent,
     EmpleadosComponent,
     EmpleadoComponent,
-    
   ],
   imports: [
     BrowserModule
