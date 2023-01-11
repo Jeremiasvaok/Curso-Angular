@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 
 export class EmpleadoComponent {
- saludo = 'hola'
+ nombre = 'juan';
+ apellido = 'vallejos';
+ edad = 44;
+ empresa = 'Municipalidad de Ramallo'
+
+//  getEdad(){
+//   return this.edad;
+//  }
 }
+
