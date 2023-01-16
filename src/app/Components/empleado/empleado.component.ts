@@ -9,11 +9,11 @@ import { Component } from '@angular/core';
 export class EmpleadoComponent {
  nombre = 'juan';
  apellido = 'vallejos';
- edad = 44;
+ private edad = 44;
  empresa = 'Municipalidad de Ramallo'
 
-//  getEdad(){
-//   return this.edad;
-//  }
+  getEdad(){
+   return this.edad;
+ }
 }
 
