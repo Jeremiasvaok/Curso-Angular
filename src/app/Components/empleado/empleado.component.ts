@@ -10,8 +10,15 @@ export class EmpleadoComponent {
  nombre = 'juan';
  apellido = 'vallejos';
  edad = 44;
+ habilitacionCuadro= false;
+ usuarioRegistrado = false
 // empresa = 'Municipalidad de Ramallo'
 
+getRegistro(){
+  this.usuarioRegistrado=true
+}
+
 llamaEmpresa(value:String){}
+
 }
 
