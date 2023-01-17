@@ -18,7 +18,11 @@
  <p>Nombre de la empresa:{{empresa.value}}</p>  <!-- aca traemos el valor del input que identificamos  -->
 </div>
 <br/> 
+<p style="text-decoration-style: dotted;">{{textoRegistro}}</p>
 <br/>
-resgistrado:<input type="checkbox" id="resgistro" [checked]="usuarioRegistrado"/>
+resgistrado:<input type="radio" name="ngRegistro" id="resgistro" [checked]="usuarioRegistrado" (click)="setUsuarioRegistrado($event)" value="si"/>
+No registrado:<input type="radio" name="ngRegistro" value="no" (click)="setUsuarioRegistrado($event)"/>
+<br />
 
 {{getRegistro()}}
+
