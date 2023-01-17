@@ -1,9 +1,15 @@
 
 <div>
-<p style="background-color: red;">Primer empleado:</p>
+<p style="background-color: red; text-align:center;">Primer empleado:</p>
 <hr>
+ <p style="margin:5ox">Intruduce la empresa:</p><input type="text" #empresa (keyup)="0"/> <!--identificamos un elemento del don con el gato y el nombre que nosotros queramos -->
+                                                                               <!--Evento keyup al pulsar una tecla automaticamente se rellena y va apareciendo  y ya no se necesita un botton-->
+<br/> 
+<br/>
+<!-- <input type="button" value="apreta!" (click)="llamaEmpresa(empresa.value)"/> evento click al apretar click se rellena -->
+                                                                            
  <p>Nombre: {{nombre}}</p>
  <p>Apellido: {{apellido}}</p>
  <p>Edad: {{edad > 18 ? 'Es mayor de edad':'Es menor de edad'}}</p>
- <p>Nombre de la empresa: {{empresa}}</p>
+ <p>Nombre de la empresa:{{empresa.value}}</p>  <!-- aca traemos el valor del input que identificamos  -->
 </div>

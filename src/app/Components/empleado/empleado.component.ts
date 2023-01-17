@@ -10,8 +10,10 @@ export class EmpleadoComponent {
  nombre = 'juan';
  apellido = 'vallejos';
  edad = 44;
- empresa = 'Municipalidad de Ramallo'
+// empresa = 'Municipalidad de Ramallo'
 
+llamaEmpresa(value:String){
 
+}
 }
 
