@@ -12,8 +12,6 @@ export class EmpleadoComponent {
  edad = 44;
 // empresa = 'Municipalidad de Ramallo'
 
-llamaEmpresa(value:String){
-
-}
+llamaEmpresa(value:String){}
 }
 
