@@ -2,12 +2,12 @@
 <div>
 <p style="background-color: red; text-align:center;">Primer empleado:</p>
 <hr>
- <p style="margin:5ox">Intruduce la empresa:</p>
- <input
+ <!-- <p style="margin:5ox">Intruduce la empresa:</p> -->
+ <!-- <input
  [disabled]="habilitacionCuadro" 
  type="text" #empresa (keyup)="0"
- /> <!--identificamos un elemento del don con el gato y el nombre que nosotros queramos -->
-                                                                               <!--Evento keyup al pulsar una tecla automaticamente se rellena y va apareciendo  y ya no se necesita un botton-->
+/> identificamos un elemento del don con el gato y el nombre que nosotros queramos -->
+   Introduce una empresa:<input type="text" placeholder="Introduce una empresa" [(ngModel)]="empresa"/>                                                                            <!--Evento keyup al pulsar una tecla automaticamente se rellena y va apareciendo  y ya no se necesita un botton-->
 <br/> 
 <br/>
 <!-- <input type="button" value="apreta!" (click)="llamaEmpresa(empresa.value)"/> evento click al apretar click se rellena -->
@@ -15,7 +15,7 @@
  <p>Nombre: {{nombre}}</p>
  <p>Apellido: {{apellido}}</p>
  <p>Edad: {{edad > 18 ? 'Es mayor de edad':'Es menor de edad'}}</p>
- <p>Nombre de la empresa:{{empresa.value}}</p>  <!-- aca traemos el valor del input que identificamos  -->
+ <p>Nombre de la empresa:{{empresa}}</p>  <!-- aca traemos el valor del input que identificamos  -->
 </div>
 <br/> 
 <p style="text-decoration-style: dotted;">{{textoRegistro}}</p>

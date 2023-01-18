@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { EVENT_MANAGER_PLUGINS } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-empleado',
@@ -12,11 +13,11 @@ export class EmpleadoComponent {
  edad = 44;
  habilitacionCuadro= false;
  usuarioRegistrado = false;
-// empresa = 'Municipalidad de Ramallo'
+empresa = 'Google'
 textoRegistro= 'No hay nadie resgistrado'
 
 getRegistro(){
-  this.usuarioRegistrado=false;
+  this.usuarioRegistrado=true;
 }
 
 setUsuarioRegistrado(event:Event){

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { EmpleadosComponent } from './Components/empleados/empleados.coponent';
 import { EmpleadoComponent } from './Components/empleado/empleado.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -13,7 +14,7 @@ import { EmpleadoComponent } from './Components/empleado/empleado.component';
     EmpleadoComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
