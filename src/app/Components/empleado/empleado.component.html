@@ -1,9 +1,13 @@
 <div>
+
    <h1>Property Binding</h1>
-<img [src]="urlImg" alt="Angular"/>
-<h3 [innerHTML]="texto"></h3>
-<button [disabled]="desabilitar" style="background-color: blue;"> Aceptar</button>
+   <img [src]="urlImg" alt="Angular"/>
+   <h3 [innerHTML]="texto"></h3>
+   <button [disabled]="desabilitar" style="background-color: blue;"> Aceptar</button>
 
 <h1>Event Binding</h1>
-
+    {{numero}}
+  <button style="padding: 10px; color: aqua;" (click)="Incrementar()">Incrementar</button>
+  <button style="padding: 10px; color: aqua;" (click)="Decrementar()">Decrementar</button>
+  <button style="padding: 10px; color: aqua;" (click)="Reiniciar()">Reiniciar</button>
 </div>
