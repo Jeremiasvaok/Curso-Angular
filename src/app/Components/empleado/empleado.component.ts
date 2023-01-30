@@ -30,5 +30,30 @@ export class EmpleadoComponent {
     this.numero = 0
    }
 
+   //Two Way Binding
+
+   numero1= 0
+   numero2= 0
+   resultado = 0
+
+   Suma(){
+    this.resultado = this.numero1 + this.numero2
+   }
+   Resta(){
+    this.resultado = this.numero1 - this.numero2
+   }
+   Multiplicacion(){
+    this.resultado = this.numero1 * this.numero2
+   }
+
+   division(){
+    this.resultado = this.numero1 / this.numero2
+   }
+  Porcentaje(){
+    let resultado2 = this.numero1 * this.numero2
+    this.resultado = resultado2 / 100
+
+
+  }
 }
 

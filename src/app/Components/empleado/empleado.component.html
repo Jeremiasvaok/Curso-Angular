@@ -4,10 +4,24 @@
    <img [src]="urlImg" alt="Angular"/>
    <h3 [innerHTML]="texto"></h3>
    <button [disabled]="desabilitar" style="background-color: blue;"> Aceptar</button>
-
+<br/><br/>
 <h1>Event Binding</h1>
     {{numero}}
   <button style="padding: 10px; color: aqua;" (click)="Incrementar()">Incrementar</button>
   <button style="padding: 10px; color: aqua;" (click)="Decrementar()">Decrementar</button>
   <button style="padding: 10px; color: aqua;" (click)="Reiniciar()">Reiniciar</button>
+<br/><br/>
+  <h1> Two Way Binding</h1>
+  <h2>Caculador Mini</h2>
+   <input type="number" [(ngModel)]="numero1" placeholder="ingrese el primer numero" style="margin:12px;"/>
+   <br/>
+   <input type="number" [(ngModel)]="numero2" placeholder="ingrese el segundo numero" style="margin:12px;"/>
+<br/>
+{{resultado}}
+<br/><br/>
+<button (click)="Suma()">Suma</button>
+<button (click)="Resta()">Resta</button>
+<button (click)="Multiplicacion()">Multiplicacion</button>
+<button (click)="division()">division</button>
+<button (click)="Porcentaje()">Porcentaje</button>
 </div>
