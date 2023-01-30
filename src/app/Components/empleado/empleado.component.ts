@@ -8,8 +8,7 @@ import { EVENT_MANAGER_PLUGINS } from '@angular/platform-browser';
 })
 
 export class EmpleadoComponent {
-
-
   urlImg = 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/1200px-Angular_full_color_logo.svg.png'
+  texto = 'esto es un texto'
 }
 
