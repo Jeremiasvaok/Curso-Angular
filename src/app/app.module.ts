@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { EmpleadosComponent } from './Components/empleados/empleados.coponent';
 import { EmpleadoComponent } from './Components/empleado/empleado.component';
 import { FormsModule } from '@angular/forms';
+import { ComponentsComponent } from './directivas/components/components.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     EmpleadosComponent,
     EmpleadoComponent,
+    ComponentsComponent,
   ],
   imports: [
     BrowserModule, FormsModule
